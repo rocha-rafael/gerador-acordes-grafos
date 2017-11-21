@@ -2,7 +2,7 @@ package br.com.base;
 
 import java.util.List;
 
-public class Acorde
+public abstract class Acorde
 {
 	private String nome;
 	private List<Nota> notas;
@@ -26,5 +26,7 @@ public class Acorde
 	{
 		this.notas = notas;
 	}
+	
+	public abstract List<String> formarAcorde(String notaInicial, boolean maior, boolean setimaMaior, boolean setimaMenor);
 
 }

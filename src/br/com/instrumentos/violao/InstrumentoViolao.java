@@ -7,6 +7,7 @@ import br.com.base.Casa;
 import br.com.base.Corda;
 import br.com.base.Instrumento;
 import br.com.base.Nota;
+import br.com.teoria.escalas.normais.A;
 
 /*
  * Cria um violao tradicional de 6 cordas e 18 casas
